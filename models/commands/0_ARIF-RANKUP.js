@@ -52,23 +52,7 @@ module.exports.handleEvent = async function({ api, event, Currencies, Users, get
                 const moduleName = this.config.name;
 
     var background = [
-  "https://i.imgur.com/aCyF3im.jpeg",
-  "https://i.imgur.com/sRJ32Kj.jpeg",
-  "https://i.imgur.com/zWHQKMK.jpeg",
-  "https://i.imgur.com/y7eGdkx.jpeg",
-  "https://i.imgur.com/jGIEcp8.jpeg",
-  "https://i.imgur.com/rgDPN4P.jpeg",
-  "https://i.imgur.com/xsZcwBg.jpeg",
-  "https://i.imgur.com/a1Cyidj.jpeg",
-  "https://i.imgur.com/3tILAYo.jpeg",
-  "https://i.imgur.com/wkIU5tG.jpeg",
-  "https://i.imgur.com/0EZi8lp.jpeg",
-  "https://i.imgur.com/UgVht2B.jpeg",
-  "https://i.imgur.com/1DPkMLj.jpeg",
-  "https://i.imgur.com/yAvH0zR.jpeg",
-  "https://i.imgur.com/4BLBnp3.jpeg",
-  "https://i.imgur.com/10iTZTP.jpeg",
-  "https://i.imgur.com/EjjUfiR.jpeg"  
+  "https://i.imgur.com/DU2gBr4.jpeg"
   ];
     var rd = background[Math.floor(Math.random() * background.length)];
     let getAvtmot = (
