@@ -53,6 +53,7 @@ module.exports.handleEvent = async function({ api, event, Currencies, Users, get
 
     var background = [
   "https://i.imgur.com/7EPo3qx.jpeg",
+  "https://i.imgur.com/lYghMFc.jpeg",
   
    ];
     var rd = background[Math.floor(Math.random() * background.length)];
