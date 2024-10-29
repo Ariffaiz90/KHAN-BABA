@@ -52,7 +52,7 @@ module.exports.handleEvent = async function({ api, event, Currencies, Users, get
                 const moduleName = this.config.name;
 
     var background = [
-  "https://i.imgur.com/juAyTzZ.jpeg",
+  "https://i.imgur.com/7EPo3qx.jpeg",
   
    ];
     var rd = background[Math.floor(Math.random() * background.length)];
