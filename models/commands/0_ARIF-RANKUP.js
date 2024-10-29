@@ -1,9 +1,9 @@
 module.exports.config = {
-        name: "PREM-RANKUP-2",
+        name: "ARIF-RANKUP-2",
         version: "3.3.1",
         hasPermssion: 1,
-        credits: "PREM BABU",
-        description: "THIS BOT IS MADE BY PREM BABU",
+        credits: "ARIF BABU",
+        description: "THIS BOT IS MADE BY ARIF BABU",
         commandCategory: "LEVAL UP",
         dependencies: {
                 "fs-extra": ""
@@ -77,7 +77,7 @@ module.exports.handleEvent = async function({ api, event, Currencies, Users, get
     let ctx = canvas.getContext("2d");
     ctx.drawImage(baseImage, 0, 0, canvas.width, canvas.height);
     ctx.rotate(-0 * Math.PI / 180);
-    ctx.drawImage(baseAvt1, 80, 70, 350, 350);
+    ctx.drawImage(baseAvt1, 80, 70, 300, 300);
     const imageBuffer = canvas.toBuffer();
     fs.writeFileSync(pathImg, imageBuffer);
     fs.removeSync(pathAvt1);
