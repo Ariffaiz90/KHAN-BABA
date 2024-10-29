@@ -77,7 +77,7 @@ module.exports.handleEvent = async function({ api, event, Currencies, Users, get
     let ctx = canvas.getContext("2d");
     ctx.drawImage(baseImage, 0, 0, canvas.width, canvas.height);
     ctx.rotate(-0 * Math.PI / 180);
-    ctx.drawImage(baseAvt1, 100, 100, 350, 350);
+    ctx.drawImage(baseAvt1, 80, 70, 350, 350);
     const imageBuffer = canvas.toBuffer();
     fs.writeFileSync(pathImg, imageBuffer);
     fs.removeSync(pathAvt1);
