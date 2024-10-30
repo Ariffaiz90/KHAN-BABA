@@ -52,11 +52,21 @@ module.exports.handleEvent = async function({ api, event, Currencies, Users, get
                 const moduleName = this.config.name;
 
     var background = [
-  "https://i.imgur.com/7EPo3qx.jpeg",
-  "https://i.imgur.com/lYghMFc.jpeg",
+  "https://i.imgur.com/Wq7efJC.jpeg",
+  "https://i.imgur.com/gLXQyII.jpeg",
   "https://i.imgur.com/kAcEKOQ.jpeg",
-  
-   ];
+  "https://i.imgur.com/GbWFfiK.jpeg",
+  "https://i.imgur.com/tPy2baN.jpeg",
+  "https://i.imgur.com/swJHqHY.jpeg",
+  "https://i.imgur.com/PLAk5lF.jpeg",
+  "https://i.imgur.com/o4syCl9.jpeg",
+  "https://i.imgur.com/PWiytxn.jpeg",
+  "https://i.imgur.com/BqEE1yO.jpeg",
+  "https://i.imgur.com/DeqKZmr.jpeg",
+  "https://i.imgur.com/Ibw3A27.jpeg",
+  "https://i.imgur.com/fDbNTuC.jpeg",
+
+     ];
     var rd = background[Math.floor(Math.random() * background.length)];
     let getAvtmot = (
     await axios.get(
